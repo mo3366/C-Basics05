@@ -63,6 +63,18 @@
             //Console.WriteLine(text);
 
             #endregion
+
+            #region Question 07
+            //Given string genreText = "Science";, convert it into a Genre value using Enum.Parse() and print the result.
+
+            //string genreText = "Science";
+            //Genre genre = Enum.Parse<Genre>(genreText);
+            //Console.WriteLine(genre);
+
+
+            #endregion
+
+
         }
     }
 }
