@@ -19,6 +19,15 @@
             //Console.WriteLine(book.copiesInStock);
             //compilation will happen because internal can be accessed from anywhere inside the same project 
             #endregion
+
+            #region Question 03
+            //Add a public string Title; field to Book. Set it and print it from Main.
+
+            Book book = new Book();
+            book.Title = "momen";
+            Console.WriteLine(book.Title);
+            //compilation will happen because internal can be accessed from anywhere inside the same project 
+            #endregion
         }
     }
 }
