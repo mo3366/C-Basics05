@@ -28,6 +28,14 @@
             Console.WriteLine(book.Title);
             //compilation will happen because internal can be accessed from anywhere inside the same project 
             #endregion
+
+            #region Question 04
+            //Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
+
+            //Book book = new Book();
+            //book.Genre = Genre.Science;
+            //Console.WriteLine(book.Genre);
+            #endregion
         }
     }
 }
